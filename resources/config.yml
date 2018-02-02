@@ -14,13 +14,13 @@ version: 18
 
 entities:
  # Weather to register Vanilla Entities (Set to false if you're going to use a MobAI Plugin such as, PureEntitiesX etc...) or not
- register: true
+ register: false
  # Enable Lightning Fire & Damage
  lightningFire: true
 
 enchantments:
  # Weather to enable & register Vanilla Enchantments (Set to false if you're going to use VanillaEnchantments plugin etc...) or not
- register: true
+ register: false
 
 dimensions:
  # Enable / Disable Dimensions
@@ -44,7 +44,7 @@ misc:
 enderPearl:
  enable: true
  cooldown: 2
- damage: 5
+ damage: 3
 
 chorusFruit:
  enable: true
@@ -83,7 +83,7 @@ player:
 mobSpawner:
  enable: true
  # Drop spawners on silk touch
- silkTouchSpawners: false
+ silkTouchSpawners: true
  # Use MonsterSpawner Damage Value as the Entity ID -- False in vanilla minecraft
  damageAsEID: false
 
